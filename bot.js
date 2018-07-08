@@ -113,4 +113,4 @@ client.on('error', e => {
   console.log(chalk.bgRed(e.replace(regToken, 'that was redacted')));
 });
 
-client.login(process.efw.BOT_TOKEN);
+client.login(ayarlar.TOKEN);
